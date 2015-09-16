@@ -21,6 +21,11 @@
 		D4E24A831BA9BB5500001E8F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4E24A651BA9BB5500001E8F /* UIKit.framework */; };
 		D4E24A8B1BA9BB5500001E8F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D4E24A891BA9BB5500001E8F /* InfoPlist.strings */; };
 		D4E24A8D1BA9BB5500001E8F /* User_Data_Challenge_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E24A8C1BA9BB5500001E8F /* User_Data_Challenge_SolutionTests.m */; };
+		D4E24A981BA9F65000001E8F /* CCUserData.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E24A971BA9F65000001E8F /* CCUserData.m */; };
+		D4E24A9E1BA9F99500001E8F /* person1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D4E24A9A1BA9F99500001E8F /* person1.jpeg */; };
+		D4E24A9F1BA9F99500001E8F /* person2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D4E24A9B1BA9F99500001E8F /* person2.jpeg */; };
+		D4E24AA01BA9F99500001E8F /* person3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D4E24A9C1BA9F99500001E8F /* person3.jpg */; };
+		D4E24AA11BA9F99500001E8F /* person4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D4E24A9D1BA9F99500001E8F /* person4.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +58,12 @@
 		D4E24A881BA9BB5500001E8F /* User Data Challenge SolutionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "User Data Challenge SolutionTests-Info.plist"; sourceTree = "<group>"; };
 		D4E24A8A1BA9BB5500001E8F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D4E24A8C1BA9BB5500001E8F /* User_Data_Challenge_SolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = User_Data_Challenge_SolutionTests.m; sourceTree = "<group>"; };
+		D4E24A961BA9F65000001E8F /* CCUserData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCUserData.h; path = ../CCUserData.h; sourceTree = "<group>"; };
+		D4E24A971BA9F65000001E8F /* CCUserData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CCUserData.m; path = ../CCUserData.m; sourceTree = "<group>"; };
+		D4E24A9A1BA9F99500001E8F /* person1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = person1.jpeg; sourceTree = "<group>"; };
+		D4E24A9B1BA9F99500001E8F /* person2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = person2.jpeg; sourceTree = "<group>"; };
+		D4E24A9C1BA9F99500001E8F /* person3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = person3.jpg; sourceTree = "<group>"; };
+		D4E24A9D1BA9F99500001E8F /* person4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = person4.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +128,7 @@
 				D4E24A731BA9BB5500001E8F /* Main.storyboard */,
 				D4E24A761BA9BB5500001E8F /* CCViewController.h */,
 				D4E24A771BA9BB5500001E8F /* CCViewController.m */,
+				D4E24A991BA9F66900001E8F /* Model */,
 				D4E24A791BA9BB5500001E8F /* Images.xcassets */,
 				D4E24A681BA9BB5500001E8F /* Supporting Files */,
 			);
@@ -126,6 +138,10 @@
 		D4E24A681BA9BB5500001E8F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D4E24A9A1BA9F99500001E8F /* person1.jpeg */,
+				D4E24A9B1BA9F99500001E8F /* person2.jpeg */,
+				D4E24A9C1BA9F99500001E8F /* person3.jpg */,
+				D4E24A9D1BA9F99500001E8F /* person4.jpeg */,
 				D4E24A691BA9BB5500001E8F /* User Data Challenge Solution-Info.plist */,
 				D4E24A6A1BA9BB5500001E8F /* InfoPlist.strings */,
 				D4E24A6D1BA9BB5500001E8F /* main.m */,
@@ -150,6 +166,15 @@
 				D4E24A891BA9BB5500001E8F /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D4E24A991BA9F66900001E8F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D4E24A961BA9F65000001E8F /* CCUserData.h */,
+				D4E24A971BA9F65000001E8F /* CCUserData.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,9 +254,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4E24AA01BA9F99500001E8F /* person3.jpg in Resources */,
+				D4E24A9E1BA9F99500001E8F /* person1.jpeg in Resources */,
 				D4E24A7A1BA9BB5500001E8F /* Images.xcassets in Resources */,
 				D4E24A6C1BA9BB5500001E8F /* InfoPlist.strings in Resources */,
+				D4E24AA11BA9F99500001E8F /* person4.jpeg in Resources */,
 				D4E24A751BA9BB5500001E8F /* Main.storyboard in Resources */,
+				D4E24A9F1BA9F99500001E8F /* person2.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +281,7 @@
 			files = (
 				D4E24A721BA9BB5500001E8F /* CCAppDelegate.m in Sources */,
 				D4E24A6E1BA9BB5500001E8F /* main.m in Sources */,
+				D4E24A981BA9F65000001E8F /* CCUserData.m in Sources */,
 				D4E24A781BA9BB5500001E8F /* CCViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
